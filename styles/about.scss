@@ -34,13 +34,19 @@ overflow: hidden;
             margin: 20%;
         
         .photo-div{
+            margin: 0;
+            padding: 0;
             .profile-photo{
                 width:150px;
                 height: 150px;
                 border-radius: 50%;
                 border:3px solid white;
             }
+           
             .social-list{
+                padding: 0;
+                margin: 0 auto;
+                width:200px;
                 margin-top: 20px    ;
                 display: flex;
                 list-style: none;
@@ -50,6 +56,13 @@ overflow: hidden;
                     font-size: 1.2rem;
                 }
             }
+        }
+        .hr{
+            height:1.3px;
+            width:100px;
+            background-color: white;
+            margin: 10px auto;
+            opacity: 0.3;
         }
         .name{
             margin-top: 20px;
@@ -64,4 +77,31 @@ overflow: hidden;
     }
 }
 
+}
+@media (min-width:600px){
+    .for-center{
+        display: flex;
+        margin-top: 10% !important;
+
+
+        .photo-div{
+            .profile-photo{
+                width:200px !important;
+                height: 200px !important;
+            }
+        }
+        .info-section{
+            margin-left: 50px !important;
+            .name{
+                font-size: 3rem !important;
+            }
+            .desc{
+                font-weight: bold;
+                letter-spacing: 1px;
+                line-height: 25px;
+            }
+            
+        }
+        
+    }
 }
