@@ -72,6 +72,11 @@ body, html {
   font-size: 1.2rem;
 }
 
+.main-body .info-div .for-center .photo-div .social-list .social-link:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
 .main-body .info-div .for-center .hr {
   height: 1.3px;
   width: 100px;
@@ -100,6 +105,13 @@ body, html {
   .for-center .photo-div .profile-photo {
     width: 200px !important;
     height: 200px !important;
+  }
+  .for-center .photo-div .social-link {
+    font-size: 2rem !important;
+  }
+  .for-center .photo-div .social-link:hover {
+    -webkit-transform: scale(2);
+            transform: scale(2);
   }
   .for-center .info-section {
     margin-left: 50px !important;
