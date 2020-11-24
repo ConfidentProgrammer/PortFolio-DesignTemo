@@ -13,7 +13,7 @@ body, html {
 
 .ribbon-div {
   position: absolute;
-  top: 40px;
+  top: 70px;
   left: 30px;
   width: 80%;
   height: 70px;
@@ -108,11 +108,13 @@ body, html {
   font-size: 1.5rem;
   width: 800px;
   margin: 0px auto;
-  margin-top: 602px;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .main-body .info-div .nav-list .nav-link {
@@ -138,6 +140,7 @@ body, html {
   .for-center .name {
     font-size: 2.5rem !important;
     width: 85%;
+    padding: 0;
   }
   .for-center .title {
     line-height: 1rem !important;
@@ -149,15 +152,39 @@ body, html {
     font-weight: bold;
     margin-top: 20px !important;
   }
+  .info-div .nav-list {
+    font-size: .8rem !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    margin: 0 auto;
+  }
+  .info-div .nav-list .nav-link {
+    margin-left: 25px;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .ribbon-div {
+    top: 50px !important;
+  }
   .name {
-    font-size: 2.2rem !important;
+    font-size: 2rem !important;
     width: 85%;
+    padding: 0;
   }
   .for-center {
     margin-top: 70px;
+  }
+  .info-div .nav-list {
+    font-size: .8rem !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    margin: 0 auto;
+  }
+  .info-div .nav-list .nav-link {
+    margin-left: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
