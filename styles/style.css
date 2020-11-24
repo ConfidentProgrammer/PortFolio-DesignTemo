@@ -100,6 +100,23 @@ body, html {
           transform: translate(-50%, -50%);
 }
 
+.main-body .info-div .for-center .anime {
+  width: 130px;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-body .info-div .for-center .anime .ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #859398;
+}
+
 .main-body .info-div .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;

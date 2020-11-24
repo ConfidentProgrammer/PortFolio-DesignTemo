@@ -106,6 +106,21 @@ body,html{
 
         .for-center{
             @include center();
+
+            .anime{
+                width:130px;
+                margin: 30px auto;
+                display: flex;
+                justify-content: space-around;
+                .ball{
+
+                    width:20px;
+                    height:20px;
+                    border-radius: 50%;
+                    background-color: #859398;
+                }
+            }
+           
         }
 
         .nav-list{
