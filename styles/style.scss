@@ -108,12 +108,15 @@ body,html{
             @include center();
 
             .anime{
-                width:130px;
+                position: absolute;
+                left:10%;
+                text-align: center;
+                width:80%;
                 margin: 30px auto;
                 display: flex;
-                justify-content: space-around;
+                justify-content: center;
                 .ball{
-
+                    margin-left: 6px;
                     width:20px;
                     height:20px;
                     border-radius: 50%;
@@ -122,7 +125,10 @@ body,html{
             }
            
         }
-
+        .nav-bar{
+            display: flex;
+            justify-content: flex-end;
+        
         .nav-list{
             display: flex;
             list-style: none;
@@ -133,12 +139,16 @@ body,html{
             overflow: hidden;
             background-color: rgba(0,0,0,0.5);
             justify-content: space-around;
-            align-items: flex-end;
+        
             .nav-link{
                 text-decoration: none;
                 color:white;
+                &:hover {
+                    transform: scale(1.2);
+                }
             }
         }
+    }
     }
 
     .image{
@@ -147,6 +157,9 @@ body,html{
     }
 }
 @media  screen and  (max-width:600px){
+       
+
+
     .ribbon-div{
         left:5px;
         .logo{
@@ -175,6 +188,7 @@ body,html{
     }
     .info-div{
         .nav-list{
+           // display: none !important;
             font-size: .8rem !important;
             justify-content: flex-start !important;
             margin: 0 auto ;
@@ -188,29 +202,44 @@ body,html{
     
 }
 @media screen and (max-width:992px){
+
+    //making the hamburger menu
+
+    
     .ribbon-div{
         top:50px !important;
     }
     .name{
-        font-size: 2rem !important;
+        font-size: 1.2rem !important;
          width:85%;
          padding: 0;
+         margin-top:60px !important;
 
     }
     .for-center{
-        margin-top: 70px;
+        margin-top: 12px;
+
+        .anime{
+            margin-bottom: 80px !important;
+            .ball{
+                width:10px;
+                height:10px;
+            }
+        }
     }
 
     .info-div{
+        .nav-bar{
+            
+          
+        }
         .nav-list{
-            font-size: .8rem !important;
-            justify-content: flex-start !important;
-            margin: 0 auto ;
-            .nav-link{
-                
-                margin-left: 25px;
-            }
-
+            
+        }
+          
+                   
         }
     }
-}
+  
+
+    

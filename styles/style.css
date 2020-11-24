@@ -101,23 +101,37 @@ body, html {
 }
 
 .main-body .info-div .for-center .anime {
-  width: 130px;
+  position: absolute;
+  left: 10%;
+  text-align: center;
+  width: 80%;
   margin: 30px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-body .info-div .for-center .anime .ball {
+  margin-left: 6px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background-color: #859398;
 }
 
-.main-body .info-div .nav-list {
+.main-body .info-div .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main-body .info-div .nav-bar .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,14 +143,16 @@ body, html {
   background-color: rgba(0, 0, 0, 0.5);
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
 }
 
-.main-body .info-div .nav-list .nav-link {
+.main-body .info-div .nav-bar .nav-list .nav-link {
   text-decoration: none;
   color: white;
+}
+
+.main-body .info-div .nav-bar .nav-list .nav-link:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .main-body .image {
@@ -186,22 +202,20 @@ body, html {
     top: 50px !important;
   }
   .name {
-    font-size: 2rem !important;
+    font-size: 1.2rem !important;
     width: 85%;
     padding: 0;
+    margin-top: 60px !important;
   }
   .for-center {
-    margin-top: 70px;
+    margin-top: 12px;
   }
-  .info-div .nav-list {
-    font-size: .8rem !important;
-    -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: flex-start !important;
-    margin: 0 auto;
+  .for-center .anime {
+    margin-bottom: 80px !important;
   }
-  .info-div .nav-list .nav-link {
-    margin-left: 25px;
+  .for-center .anime .ball {
+    width: 10px;
+    height: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
