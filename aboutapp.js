@@ -15,12 +15,13 @@ let linkI = document.getElementById('link');
 
 const op = new TimelineMax();
 
-op.from(main, 1, )
+op.from(main, 2, {x:100, ease:'elastic.out'} )
+ .from(nav,1,{y:-100, ease:'elastic.out'}, '-=1')
 
 function down(){
     const tl = new TimelineMax();
     tl.to(photo, 1.5, {y:w-1.5*i, ease:'bounce.out'})
-    .to(photo,1.5,{rotation:160}, '-=1.5')
+    .to(photo,1.5,{rotation:80}, '-=1.5')
     .to(link, 1.5, {y:w-1.5*i-100, ease:'bounce.out'},"-=1.2")
     .to(link,1.5,{rotation:-160}, '-=1.5')
     .to(name, 1.5, {y:w-1.5*i+80, ease:'bounce.out'},"-=1.2")
