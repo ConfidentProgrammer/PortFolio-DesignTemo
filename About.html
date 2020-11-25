@@ -7,7 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"></script>
+<script defer src="aboutapp.js"></script>
 </head>
 
 <body>
@@ -15,24 +18,25 @@
     <div class="main-body">
 
        
-            <div class="info-div">
+            <div class="info-div"  id="main">
                 <div class="for-center">
                     <div class="photo-div">
-                <img src="https://www.linkpicture.com/q/IMG_9907.jpg" alt="" class="profile-photo">
+                <img src="https://www.linkpicture.com/q/IMG_9907.jpg" id="img"  alt="" class="profile-photo">
                 
-                        <ul class="social-list">
-                            <li class="social-item"><a target="_blank" href="https://www.linkedin.com/in/dean06/" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+                        <ul class="social-list" id="links" >
+                            <li class="social-item"><a target="_blank" href="https://www.linkedin.com/in/dean06/" id="link" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
                             <li class="social-item"><a target="_blank" href="https://github.com/ConfidentProgrammer" class="social-link"><i class="fab fa-github"></i></a></li>
                             <li class="social-item"><a target="_blank" href="https://www.hackerrank.com/deepp2618" class="social-link"><i class="fab fa-hackerrank"></i>   </a></li>
                         </ul>
             </div>
                 <div class="info-section">
-                    <h1 class="name">Deep Patel</h1>
+                    <h1 id="name" class="name">Deep Patel</h1>
                     <div class="hr"></div>
-                    <p class="desc">I'm currently pursuing Software Development and Network Engineering advanced diploma
+                    <p class="desc" id="desc">I'm currently pursuing Software Development and Network Engineering advanced diploma
                         from Sheridan College.
                         I love to think and apply new technologies for betterment of the people.
                     </p>
+                    <p class="magic" id="magic" onclick="down()">Click Me!</p>
                 </div>
 
             </div>

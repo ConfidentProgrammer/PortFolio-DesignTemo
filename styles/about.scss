@@ -78,6 +78,20 @@ overflow: hidden;
             margin-top: 10px;
             font-size: .5;
         }
+        .magic{
+            padding: 5px;
+            font-weight: bold;
+            margin: 0 auto;
+            font-size:1.5rem;
+            width: 170px;
+            margin-top: 10px;
+            background-color:#004987;
+            transition: .1s;
+            cursor: pointer;
+            &:hover{
+               transform: scale(1.1);
+            }
+        }
         
     }
 }

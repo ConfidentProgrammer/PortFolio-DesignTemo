@@ -95,6 +95,24 @@ body, html {
   font-size: .5;
 }
 
+.main-body .info-div .for-center .magic {
+  padding: 5px;
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  width: 170px;
+  margin-top: 10px;
+  background-color: #004987;
+  -webkit-transition: .1s;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.main-body .info-div .for-center .magic:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 @media (min-width: 600px) {
   .for-center {
     display: -webkit-box;
