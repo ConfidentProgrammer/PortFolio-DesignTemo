@@ -28,7 +28,23 @@ overflow: hidden;
         background-color: rgba(0, 0, 0, 0.61);
         padding:10px;
         color:white;
+        .nav-bar{
+            .nav-list{
+                display: flex;
+                list-style: none;
+                font-size: 1.5rem;
+                font-size: .8rem ;
+            justify-content: flex-start ;
+            margin: 0 auto ;
+            background-color: rgba(0,0,0,0.5);
 
+            .nav-link{
+                margin-left: 20px;
+                color:white;
+                text-decoration: none;
+            }
+            }
+        }
 
         .for-center{
             margin: 20%;
@@ -102,7 +118,7 @@ overflow: hidden;
         display: flex;
         margin-top: 10% !important;
 
-
+        
         .photo-div{
             .profile-photo{
                 width:200px !important;
@@ -130,5 +146,67 @@ overflow: hidden;
             
         }
         
+    }
+
+    .info-div{
+        .nav-bar{
+            .nav-list{
+                justify-content: center   !important;
+                
+            }
+
+            .nav-link{
+                 font-size: 1.5rem !important;
+            }
+        }
+    }
+}
+@media (max-height:500px){
+
+ .for-center{
+        display: flex;
+        margin-top: 10% !important;
+
+
+        .photo-div{
+            .profile-photo{
+                width:100px !important;
+                height: 100px !important;
+            }
+            .social-link{
+                font-size: 2rem !important;
+                &:hover{
+                    transform: scale(2);
+
+
+                }
+            }
+        }
+        .info-section{
+            margin-left: 50px !important;
+            .name{
+                font-size: 2rem !important;
+            }
+            .desc{
+                font-size:.7rem !important;
+                font-weight: bold;
+                letter-spacing: 1px;
+                line-height: 15px;
+            }
+            
+        }
+        
+    }
+    .info-div{
+        .nav-bar{
+            .nav-list{
+                justify-content: center   !important;
+                
+            }
+
+            .nav-link{
+                 font-size: 1rem !important;
+            }
+        }
     }
 }

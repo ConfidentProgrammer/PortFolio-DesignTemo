@@ -38,6 +38,26 @@ body, html {
   color: white;
 }
 
+.main-body .info-div .nav-bar .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  font-size: .8rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-body .info-div .nav-bar .nav-list .nav-link {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
 .main-body .info-div .for-center {
   margin: 20%;
 }
@@ -141,6 +161,54 @@ body, html {
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 25px;
+  }
+  .info-div .nav-bar .nav-list {
+    -webkit-box-pack: center   !important;
+        -ms-flex-pack: center   !important;
+            justify-content: center   !important;
+  }
+  .info-div .nav-bar .nav-link {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-height: 500px) {
+  .for-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10% !important;
+  }
+  .for-center .photo-div .profile-photo {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .for-center .photo-div .social-link {
+    font-size: 2rem !important;
+  }
+  .for-center .photo-div .social-link:hover {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  .for-center .info-section {
+    margin-left: 50px !important;
+  }
+  .for-center .info-section .name {
+    font-size: 2rem !important;
+  }
+  .for-center .info-section .desc {
+    font-size: .7rem !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 15px;
+  }
+  .info-div .nav-bar .nav-list {
+    -webkit-box-pack: center   !important;
+        -ms-flex-pack: center   !important;
+            justify-content: center   !important;
+  }
+  .info-div .nav-bar .nav-link {
+    font-size: 1rem !important;
   }
 }
 /*# sourceMappingURL=about.css.map */
