@@ -6,12 +6,17 @@ let name = document.getElementById('name');
 let desc = document.getElementById('desc');
 let magic = document.getElementById('magic');
 let nav = document.getElementById('nav');
-
+let main = document.getElementById('main');
 console.log(w);
 console.log(l);
 let photo = document.querySelector('.profile-photo');
 let link = document.getElementById('links');
 let linkI = document.getElementById('link');
+
+const op = new TimelineMax();
+
+op.fromTo(main ,3, {z:0} ,{z:100});
+
 function down(){
     const tl = new TimelineMax();
     tl.to(photo, 1.5, {y:w-1.5*i, ease:'bounce.out'})
