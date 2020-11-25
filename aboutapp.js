@@ -15,7 +15,7 @@ let linkI = document.getElementById('link');
 
 const op = new TimelineMax();
 
-op.fromTo(main ,3, {z:0} ,{z:100});
+op.from(main, 1, )
 
 function down(){
     const tl = new TimelineMax();
