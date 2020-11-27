@@ -26,6 +26,7 @@ body {
   top: 3%;
   width: 350px;
   height: 200px;
+  z-index: 2000;
 }
 
 #ring1 {
@@ -64,5 +65,22 @@ body {
 .link {
   border: 1px solid white;
   background: black !important;
+}
+
+@media (min-width: 600px) {
+  .ring {
+    left: 30%;
+    width: 650px;
+    height: 400px;
+  }
+  .heading {
+    left: 40%;
+  }
+  .skill-div {
+    width: 600px;
+    left: 100px;
+    position: absolute !important;
+    bottom: 200px !important;
+  }
 }
 /*# sourceMappingURL=skills.css.map */
