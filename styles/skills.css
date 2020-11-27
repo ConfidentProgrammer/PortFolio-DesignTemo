@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+  top: 15%;
+  left: 15%;
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  letter-spacing: -4px;
+}
+
+.ring {
+  position: absolute;
+  margin: auto;
+  top: 3%;
+  width: 350px;
+  height: 200px;
+}
+
+#ring1 {
+  -webkit-animation: ring1 4s linear infinite;
+          animation: ring1 4s linear infinite;
+}
+
+#ring2 {
+  -webkit-animation: ring1 .6s linear infinite;
+          animation: ring1 .6s linear infinite;
+}
+
+.container-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.container-grid .skill-div {
+  padding: 10px;
+  margin-top: 60%;
+  margin-left: 10px;
+}
+
+.container-grid .skill-div .skill {
+  display: inline-block;
+  margin: 5px;
+  margin-left: 2px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  background: linear-gradient(135deg, #6adb9d 0%, #17a758 100%);
+}
+
+.link {
+  border: 1px solid white;
+  background: black !important;
+}
+/*# sourceMappingURL=skills.css.map */
