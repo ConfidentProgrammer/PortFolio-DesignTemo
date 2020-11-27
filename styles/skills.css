@@ -83,4 +83,34 @@ body {
     bottom: 200px !important;
   }
 }
+
+@media (max-height: 500px) {
+  .ring {
+    width: 350px !important;
+    height: 200px !important;
+  }
+  .skill-div {
+    z-index: -11;
+    padding: 4px;
+    position: absolute;
+    width: 400px;
+    bottom: 20px !important;
+    left: 10px;
+  }
+  .skill-div .skill {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 2px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 5px 5px !important;
+    text-align: center;
+    background: linear-gradient(135deg, #6adb9d 0%, #17a758 100%);
+  }
+  .heading {
+    margin-left: 20px;
+    font-size: 2.4rem;
+  }
+}
 /*# sourceMappingURL=skills.css.map */
