@@ -23,15 +23,38 @@ img {
   height: 100%;
 }
 
+.top .cloud {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  z-index: -1000;
+}
+
+.top #cloud1 {
+  left: 150px;
+}
+
+.top #cloud2 {
+  top: 190px;
+  left: -120px;
+}
+
+.top #cloud3 {
+  width: 200px;
+  height: 200px;
+  top: 260px;
+  left: 255px;
+}
+
 .top .front-heading {
   width: 250px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 3rem;
-  letter-spacing: -5px;
+  font-size: 4rem;
+  letter-spacing: 5px;
 }
 
 .top .ham {

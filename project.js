@@ -12,10 +12,15 @@ ham.addEventListener('click', function(){
 })
 
 
-let fspanw = document.querySelector(".front-heading");
+let fspan = document.querySelector(".front-heading");
+let cloud1 = document.getElementById('cloud1');
+let cloud2 = document.getElementById('cloud2');
+let cloud3 = document.getElementById('cloud3');
 
 const head = new TimelineMax();
-head.from(fspanw,.6,{opacity:0,rotate:90})
+head.from(cloud1, .7, {x:100})
+.from(cloud2, .7, {x:-50},'-=.7')
+.from(cloud3,.7,{x:80},'-=.7')
 
 /// grabbing all the project-sections
 let p1 = document.querySelector('.p1');
