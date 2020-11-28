@@ -62,6 +62,7 @@ img {
 }
 
 .top #nav {
+  position: absolute;
   display: none;
 }
 
