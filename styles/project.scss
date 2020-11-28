@@ -30,6 +30,20 @@ img{
         font-size: 3rem;
         letter-spacing: -5px;
     }
+    .ham{
+        font-size: 2.6rem;
+    }
+    #nav{
+        display: none;
+    }
+    .nav{
+        
+        font-size: 1.5rem;
+        color:#173f5f;
+        .link{
+            color:#173f5f;
+        }
+    }
 }
 .project-div{
     height: 100%;
