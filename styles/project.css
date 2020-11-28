@@ -185,5 +185,19 @@ img {
     font-size: 1.2rem !important;
     line-height: 20px !important;
   }
+  .cloud {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  #cloud1 {
+    top: 100px !important;
+    left: 50px !important;
+  }
+  #cloud3 {
+    top: -10px !important;
+  }
+  #cloud2 {
+    top: 20px !important;
+  }
 }
 /*# sourceMappingURL=project.css.map */
