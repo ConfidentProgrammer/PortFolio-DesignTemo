@@ -18,9 +18,9 @@ let cloud2 = document.getElementById('cloud2');
 let cloud3 = document.getElementById('cloud3');
 
 const head = new TimelineMax();
-head.from(cloud1, .7, {x:100})
-.from(cloud2, .7, {x:-50},'-=.7')
-.from(cloud3,.7,{x:80},'-=.7')
+head.from(cloud1, .7, {x:240})
+.from(cloud2, .7, {x:-190},'-=.7')
+.from(cloud3,.7,{x:220},'-=.7')
 .from(fspan,0.8,{scale:0, ease:'elastic.out'})
 
 /// grabbing all the project-sections
