@@ -163,4 +163,27 @@ img {
     font-size: 1.8rem !important;
   }
 }
+
+@media (max-height: 500px) {
+  body, html {
+    width: 100% !important;
+  }
+  .project-section {
+    border: 1px solid black;
+    width: 100% !important;
+  }
+  .front-heading {
+    font-size: 4rem !important;
+  }
+  .slogan {
+    font-size: 2.8rem !important;
+  }
+  .pro-itself {
+    margin-left: 300px !important;
+    margin-top: -200px !important;
+    width: 300px  !important;
+    font-size: 1.2rem !important;
+    line-height: 20px !important;
+  }
+}
 /*# sourceMappingURL=project.css.map */
