@@ -126,4 +126,41 @@ img {
 .project-div .p4 {
   background-color: #8ee4af;
 }
+
+@media (min-width: 600px) {
+  .front-heading {
+    font-size: 8rem !important;
+  }
+  #nav {
+    display: block !important;
+  }
+  .ham {
+    display: none;
+  }
+  .cloud {
+    width: 600px !important;
+    height: 600px !important;
+  }
+  #cloud1 {
+    left: 700px !important;
+  }
+  #cloud2 {
+    top: -100px !important;
+    left: 200px !important;
+  }
+  #cloud3 {
+    left: 300px !important;
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .slogan {
+    font-size: 4.5rem !important;
+  }
+  .pro-itself {
+    width: 700px  !important;
+    line-height: 35px !important;
+    margin-top: 30px !important;
+    font-size: 1.8rem !important;
+  }
+}
 /*# sourceMappingURL=project.css.map */
