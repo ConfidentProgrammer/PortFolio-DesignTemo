@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+* {
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.top {
+  height: 100%;
+}
+
+.top .front-heading {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 3rem;
+  letter-spacing: -5px;
+}
+
+.project-div {
+  height: 100%;
+}
+
+.project-div .project-section {
+  height: 100%;
+  background-color: #5cdb95;
+}
+
+.project-div .project-section .pro-itself {
+  width: 300px;
+  font-size: 1.2rem;
+  line-height: 22px;
+}
+
+.project-div .project-section .project-desc {
+  background-color: #379683;
+  height: 300px;
+  width: 100px;
+}
+
+.project-div .project-section .slogan {
+  position: absolute;
+  left: 30px;
+  width: 250px;
+  margin-top: 50px;
+  color: black;
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+
+.project-div .project-section .link {
+  font-size: 1.5rem;
+  color: #173f5f;
+}
+
+.project-div .project-section .slogan2 {
+  font-size: 2rem;
+}
+
+.project-div .project-section .pd4 {
+  background-color: #edf5e1;
+}
+
+.project-div .p2 {
+  background-color: #edf5e1;
+}
+
+.project-div .p4 {
+  background-color: #8ee4af;
+}
+/*# sourceMappingURL=project.css.map */

@@ -75,7 +75,9 @@ background: black !important;
         left:100px;
         position: absolute !important;
         bottom:200px !important;
-        
+        .skill{
+            //position: absolute;
+        }
     }
 }
 @media (max-height:500px){
