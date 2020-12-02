@@ -28,6 +28,11 @@ body{
 .skill{
     display: inline;
     width: 100px;
+    transition: 0.2s;
+    &:hover{
+        background-color: white;
+        color: #000;
+    }
 }
 .link{
     color: white;
@@ -52,10 +57,14 @@ font-size: 0.9rem;
 }
 @media (max-height:500px){
     .container{
-       
+        top: 55% !important;
         width: 400px;
     }
     .letter{
         font-size: 2.3rem !important;
+    }
+
+    .link{
+        margin-top: 10px;
     }
 }

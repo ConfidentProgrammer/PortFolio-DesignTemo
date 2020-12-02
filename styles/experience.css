@@ -31,6 +31,13 @@ body .container .letter {
 .skill {
   display: inline;
   width: 100px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.skill:hover {
+  background-color: white;
+  color: #000;
 }
 
 .link {
@@ -55,10 +62,14 @@ body .container .letter {
 
 @media (max-height: 500px) {
   .container {
+    top: 55% !important;
     width: 400px;
   }
   .letter {
     font-size: 2.3rem !important;
+  }
+  .link {
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=experience.css.map */
