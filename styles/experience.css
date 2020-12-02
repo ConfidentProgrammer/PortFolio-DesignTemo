@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -15,7 +17,48 @@ body .container {
 }
 
 body .container .letter {
-  font-size: 5rem;
+  font-size: 2rem;
   color: white;
+}
+
+.exp-div {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.skill {
+  display: inline;
+  width: 100px;
+}
+
+.link {
+  color: white;
+  border: 1px solid white;
+  background: black;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (min-width: 600px) {
+  .letter {
+    font-size: 5rem !important;
+  }
+  .skill {
+    width: 200px;
+  }
+}
+
+@media (max-height: 500px) {
+  .container {
+    width: 400px;
+  }
+  .letter {
+    font-size: 2.3rem !important;
+  }
 }
 /*# sourceMappingURL=experience.css.map */

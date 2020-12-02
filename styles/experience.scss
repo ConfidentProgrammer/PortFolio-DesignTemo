@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -12,9 +13,49 @@ body{
       transform: translate(-50%,-50%);
 
       .letter{
-          font-size: 5rem;
+          font-size: 2rem;
           color: white;
       }
   }
 
+}
+
+.exp-div{
+ text-align: center;
+ display: grid;
+ place-items: center;
+}
+.skill{
+    display: inline;
+    width: 100px;
+}
+.link{
+    color: white;
+    border:1px solid white;
+background: black;
+font-size: 0.9rem;
+    font-weight: bold;
+    padding:10px 15px;
+    //border:1px solid rgb(145, 137, 137);
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (min-width:600px){
+    .letter{
+        font-size: 5rem !important;
+    }
+
+    .skill{
+        width:200px;
+    }
+}
+@media (max-height:500px){
+    .container{
+       
+        width: 400px;
+    }
+    .letter{
+        font-size: 2.3rem !important;
+    }
 }
