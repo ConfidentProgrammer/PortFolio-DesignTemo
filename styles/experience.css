@@ -14,7 +14,6 @@ body .container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 1px solid white;
   width: 235px;
 }
 
@@ -54,6 +53,9 @@ body .container .letter {
 }
 
 @media (min-width: 600px) {
+  .container {
+    width: 800px !important;
+  }
   .letter {
     font-size: 5rem !important;
   }
@@ -65,7 +67,7 @@ body .container .letter {
 @media (max-height: 500px) {
   .container {
     top: 55% !important;
-    width: 400px;
+    width: 400px !important;
   }
   .letter {
     font-size: 2.3rem !important;
