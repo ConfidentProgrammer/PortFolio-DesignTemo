@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .container .letter {
+  font-size: 5rem;
+  color: white;
+}
+/*# sourceMappingURL=experience.css.map */
