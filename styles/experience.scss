@@ -11,9 +11,10 @@ body{
       top: 40%;
       left: 50%;
       transform: translate(-50%,-50%);
-
+    border: 1px solid white;
+    width: 235px;
       .letter{
-          font-size: 2rem;
+          font-size: 1.2rem;
           color: white;
       }
   }

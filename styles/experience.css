@@ -14,10 +14,12 @@ body .container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  border: 1px solid white;
+  width: 235px;
 }
 
 body .container .letter {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: white;
 }
 
