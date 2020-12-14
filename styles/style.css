@@ -55,7 +55,7 @@ body, html {
   border: 1px solid black;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.61);
+  background-color: rgba(0, 0, 0, 0.71);
   padding: 10px;
   color: white;
 }
@@ -160,6 +160,12 @@ body, html {
   height: 600px;
 }
 
+.visits{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 @media screen and (max-width: 600px) {
   .ribbon-div {
     left: 5px;

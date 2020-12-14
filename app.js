@@ -64,4 +64,16 @@ tl.fromTo(mainBody, 1.5, { height: '0%' }, { height: '95%', ease: 'bounce.out' }
     .to(ball,1,{y:0, ease:'elastic.out', stagger:.1}, '-=1.3')
 
 
+// adding the page counter
 
+//gettting thecounter\
+let counter = document.getElementById('counter');
+
+function updateVisits(){
+    fetch('https://api.countapi.xyz/update/pateldp.com/portfolio/?amount=1')
+    .then(res => res.json())
+    .then(res => {
+        counter.innerHTML =`page visits: ${res.value}`;
+    });
+}
+updateVisits();
